@@ -1,0 +1,79 @@
+body {
+    margin: 100px;
+    min-width: 250px;
+    background-color: #f8edf5;
+  }
+  
+  /* Include the padding and border in an element's total width and height */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* list items */
+  ul li {
+    list-style: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  /* Darker background-color on hover */
+  ul li:hover {
+    background: #ddd;
+  }
+
+  
+  
+  /* header */
+  .header {
+    background-color: rgb(214, 205, 213);
+    padding: 20px 20px;
+    color: black;
+    text-align: center;
+    border-color: black;
+    border: solid;
+    margin-bottom: 20px;
+  }
+  h2 {
+    text-align:center;
+  }
+
+.content {
+  margin-left: 60px;
+  margin-right: 60px;
+    padding: 20px;
+    border: solid;
+    height: 400px;
+    background-color: white;
+}
+  /* input */
+  input {
+    border-style: solid;
+    border-radius: 0;
+    width: 45%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 170px;
+  }
+
+  /* "Add" button */
+  .addBtn {
+    padding: 9px;
+    width: 20%;
+    background: lightgrey;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    margin-top: 20px;
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }
